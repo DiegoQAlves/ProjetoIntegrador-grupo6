@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 7%;
+    color: #2F3E21;
+}
+
+nav {
+    margin: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao {
+    color: gray;  
+    align-content: center;
+}
+
+h4 {
+    margin-top: 7%;
+}
+
+form {
+    justify-content: right;
+    padding: 3%;
+}
+
+button.btn-primary.btn {
+    background-color: #FFD7E2;
+    border-color: #FFD7E2;
+    color: #2F3E21;
+    justify-content: center;
+}

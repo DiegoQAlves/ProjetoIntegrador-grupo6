@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 7%;
+}
+
+nav {
+    margin: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao {
+    color: gray;  
+    align-content: center;
+}
+
+img {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #2F3E21;
+    text-align: center;
+    margin-top: 5%;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    margin-top: 5%;
+}
+
+button.btn-primary.btn-lg {
+    background-color: #FFD7E2;
+    border-color: #FFD7E2;
+    color: #2F3E21;
+    justify-content: center;    
+}
+
+div {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+

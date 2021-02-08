@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 7%;
+}
+
+nav {
+    margin: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao {
+    color: gray;  
+    align-content: center;
+}
+
+form{
+    display: block;
+}
+
+h4 {
+    text-align: center;
+    color: #2F3E21;
+}
+
+legend {
+    font-size: medium;
+    font-weight: bolder;
+    color: #2F3E21;
+}
+
+.rosa {
+    border: solid 6px #FFD7E2;
+    margin: 1%;
+    padding: 1% 3%; 
+    color: #2F3E21;   
+}
+
+.verde {
+    border: solid 6px #BBFFBB;
+    margin: 1%;
+    padding: 1% 3%; 
+    color: #2F3E21;   
+}
+
+.botao {
+    width: 100%;
+    text-align: right;
+}
+
+button.btn-primary.btn-sm {
+    background-color: #FFD7E2;
+    border-color: #FFD7E2;
+    color: #2F3E21;
+    justify-content: center;
+}

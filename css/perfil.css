@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border: none;
+}
+
+body {
+    margin: 0 7%;
+    color: #2F3E21;
+    }
+
+nav {
+    margin: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.navegacao {
+    color: gray;
+    align-content: center;
+}
+
+.container-pai {
+    border: solid 6px #BBFFBB;
+    padding: 1% 7%;
+    margin: 2% 0;
+}
+
+
+p {
+    font-size: x-large;
+}
+
+.perfil {
+    font-size: x-large;
+    color: #2F3E21; 
+    }
+
