@@ -5,47 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="hidratantes.css">
     <title>Produtos</title>
 </head>
 <body>
     <header>
         <div>
-            <h1>Botanista</h1>
+            <h1>A Botanista</h1>
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Hidratantes
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Hidratante Labial</a></li>
-                  <li><a class="dropdown-item" href="#">Corpo</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Mãos</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Pesquisa</button>
-            </form>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <div class="subnav">
+          <button class="subnavbtn">Hidratantes <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#Corpo">Corpo</a>
+            <a href="#Pés">Pés</a>
+            <a href="#Mãos">Mãos</a>
           </div>
         </div>
-      </nav>
+        <div class="subnav">
+          <button class="subnavbtn">Perfumes <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#Feminino">Feminino</a>
+            <a href="#Masculino">Masculino</a>
+            <a href="#Unisex">Unisex</a>
+            <a href="#Infantil">Infantil</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Monte seu Kit <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#Kits Masculinos">Kits Masculinos</a>
+            <a href="#Kits Femininos">Kits Femininos</a>
+            <a href="#kits Infantis">kits Infantis</a>
+          </div>
+        </div>
+        <a href="#contact">Carrinho</a>
+      </div>
+      
         <div class="container lado-lado">
             <aside>
                 <div class="asideItem">
