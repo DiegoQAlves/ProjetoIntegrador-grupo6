@@ -202,6 +202,24 @@ aside {
 	color: rgb(30, 196, 102);
 }
 
+.btn {
+	border: 2px solid;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  .success {
+	border-color: rgb(30, 196, 102);
+	color: green;
+  }
+  
+  .success:hover {
+	background-color: rgb(30, 196, 102);
+	color: white;
+  }
+  
+
 footer{
 	padding: 10px;
 	background-image: url(./img/fundo.jpeg);
