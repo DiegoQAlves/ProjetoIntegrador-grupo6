@@ -231,10 +231,18 @@ footer{
 	display: none;
 }
 
-@media(max-width: 576px){
-	body {
-		width: 100%;
-		margin: 0 auto;
+@media(max-wedth:768px){
+	div img{
+		display: none;
+		width: 40px;
+		margin-top: 12px;
+		margin-right: 10px;
+	}
+
+	@media(min-width: 769px){
+		div img{
+			display: none;
+		}
 	}
 
 	.container {
