@@ -1,7 +1,7 @@
 header{
 	box-sizing: border-box;
     box-shadow: 0 0 8px 0 black;
-    background-image:url(./img/fundo.jpeg);
+    background-image:url(../images/fundo.jpeg);
     text-align: center;
     height: 60px;
 	color: white;
@@ -11,6 +11,27 @@ header{
 * {
 	box-sizing: border-box;
 }
+
+.vertical-menu {
+	width: 200px;
+  }
+  
+  .vertical-menu a {
+	background-color: #eee;
+	color: black;
+	display: block;
+	padding: 12px; 
+	text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+	background-color: rgb(153, 221, 182); 
+  }
+  
+  .vertical-menu a.active {
+	background-color: rgb(30, 196, 102);
+	color: white;
+  }
 
 .navbar {
 	overflow: hidden;
@@ -179,9 +200,26 @@ aside {
 	color: rgb(30, 196, 102);
 }
 
+.btn {
+	border: 2px solid;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  .success {
+	border-color: rgb(30, 196, 102);
+	color: green;
+  }
+  
+  .success:hover {
+	background-color: rgb(30, 196, 102);
+	color: white;
+  }
+
 footer{
 	padding: 10px;
-	background-image: url(./img/fundo.jpeg);
+	background-image: url(../images/fundo.jpeg);
 	color:#FFF;
 	margin-top: auto;
 	box-sizing: border-box;
@@ -193,10 +231,18 @@ footer{
 	display: none;
 }
 
-@media(max-width: 576px){
-	body {
-		width: 100%;
-		margin: 0 auto;
+@media(max-wedth:768px){
+	div img{
+		display: none;
+		width: 40px;
+		margin-top: 12px;
+		margin-right: 10px;
+	}
+
+	@media(min-width: 769px){
+		div img{
+			display: none;
+		}
 	}
 
 	.container {
