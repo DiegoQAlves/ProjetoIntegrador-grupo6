@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <title>a botanista</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/carrinho.css"    
+  </head>
+
+
+  <body>
+
+    <header>
+      <div>
+        <h1>botanista</h1>
+      </div>
+    </header>
+
+    <nav>  
+      <a class="navegacao" href="/perfil">perfil</a>
+      <a class="navegacao" href="/carrinho">carrinho</a>
+      <a class="navegacao" href="/pesquisar">pesquisar</a>
+      <a class="navegacao" href="/produtos">produtos</a>
+      <a class="navegacao" href="/quizz">quizz</a>
+      <a class="navegacao" href="/sobre nós">sobre nós</a>
+      <a class="navegacao" href="/contato">contato</a>     
+  </nav>
+
+    <div class="container-pai">                  
+    <div class="row">
+        <div class="col-6">
+
+           <br> <h4>fulano, é você?</h4> <br>
+            <form>
+                <input type="radio" id="sim" name="identificacao" value="sim">
+                <label for="sim">sim. bora!</label><br>
+                <input type="radio" id="nao" name="identificacao" value="nao">
+                <label for="nao">nao. voltar para login.</label><br>
+            </form><br>
+            
+            <h4>para onde devemos enviar o seu pedido?</h4><br>
+            <form>
+                <div class="input-group mb-3">                    
+                    <input type="text" class="form-control" placeholder="nome completo" aria-label="nome">
+                </div>
+            </form>
+
+            <form>
+                <div class="input-group mb-3">                    
+                    <input type="text" class="form-control" placeholder="cep" aria-label="cep">
+                    <input type="text" class="form-control" placeholder="número" aria-label="numero">
+                </div>
+            </form>
+
+            <form>
+                <div class="input-group mb-3">                    
+                    <input type="text" class="form-control" placeholder="endereço" aria-label="endereco">
+                </div>
+            </form>
+
+            <form>
+                <div class="input-group mb-3">                    
+                    <input type="text" class="form-control" placeholder="bairro" aria-label="bairro">
+                </div>
+            </form>
+
+            <form>
+                <div class="input-group mb-3">                    
+                    <input type="text" class="form-control" placeholder="cidade" aria-label="cidade">
+                    <input type="text" class="form-control" placeholder="estado" aria-label="estado">
+                </div>
+            </form>
+
+            <div class="botao">
+                <button type="submit" class="btn-primary btn-sm">continuar</button>
+            </div>
+        </div>
+
+        <div class="col-6">     
+            <div class="pedido">
+                <img src="img/undraw_shopping_app_flsj.png" alt="">
+                <div class="info-pedido">
+                    <span class="titulo">seu primeiro pedido</span> <br>
+                    <span class="preco">R$ 50,00</span>
+                </div>
+            </div>
+
+           <div class="pedido">
+                <img src="img/undraw_shopping_app_flsj.png" alt="">
+                <div class="info-pedido">
+                    <span class="titulo">seu segundo pedido</span> <br>
+                    <span class="preco">R$ 60,00</span>
+                </div>
+            </div> <br>
+
+            <form>
+                <div class="input-group mb-3"> 
+                    <legend><h4>aplicar cupom</h4></legend>                   
+                    <input type="text" class="form-control" placeholder="cupom" aria-label="cupom">
+                </div>
+            </form> 
+
+            <div class="valores">
+                <div>
+                <span class="subtitulo-valores">subtotal</span>       
+                    <span class="precos-valores">R$ 110,00</span>          
+                </div>
+
+                <div>
+                    <span class="subtitulo-valores">frete</span>   
+                    <span class="precos-valores">R$ 9,90</span>             
+                </div>
+
+                <div>
+                    <span class="subtitulo-valores">total</span>
+                    <span class="precos-valores">R$ 119,90</span>
+                </div>
+
+                <div class="botao">
+                    <button type="submit" class="btn-primary btn-sm">finalizar compra</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>  
+     
+        
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+  
+</html>
