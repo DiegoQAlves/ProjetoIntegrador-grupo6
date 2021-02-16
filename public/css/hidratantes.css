@@ -1,7 +1,7 @@
 header{
 	box-sizing: border-box;
     box-shadow: 0 0 8px 0 black;
-    background-image:url(./img/fundo.jpeg);
+    background-image:url(../images/fundo.jpeg);
     text-align: center;
     height: 60px;
 	color: white;
@@ -11,7 +11,6 @@ header{
 * {
 	box-sizing: border-box;
 }
-
 
 .vertical-menu {
 	width: 200px;
@@ -33,7 +32,6 @@ header{
 	background-color: rgb(30, 196, 102);
 	color: white;
   }
-
 
 .navbar {
 	overflow: hidden;
@@ -112,7 +110,7 @@ body {
 aside {
 	flex: 0 0 300px;
 	padding: 20px;
-	border-right:1px ; 
+	border-right:1px rgb(30, 196, 102); 
 }
 
 .lado-lado>aside>.asideItem{
@@ -218,11 +216,10 @@ aside {
 	background-color: rgb(30, 196, 102);
 	color: white;
   }
-  
 
 footer{
 	padding: 10px;
-	background-image: url(./img/fundo.jpeg);
+	background-image: url(../images/fundo.jpeg);
 	color:#FFF;
 	margin-top: auto;
 	box-sizing: border-box;
