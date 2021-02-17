@@ -1,6 +1,6 @@
 const indexController = {
     index: (req, res) => {
-        return res.render()
+        return res.render('index')
     }
 }
 
