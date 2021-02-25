@@ -215,8 +215,8 @@ aside {
   }
   
   .success:hover {
-	background-color: rgb(30, 196, 102);
-	color: white;
+	background-color: #FFD7E2;
+	color: green;
   }
   
 
