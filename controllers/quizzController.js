@@ -1,6 +1,6 @@
 const quizzController = {
     index: (req, res) => {
-    return res.render("perfil")
+    return res.render("quizz")
     }
 }
 

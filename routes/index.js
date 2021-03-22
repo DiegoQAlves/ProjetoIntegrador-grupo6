@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const indexController = require('../controllers/indexController');
-const perfilController = require('../controllers/perfilController');
+const loginController = require('../controllers/loginController');
 const carrinhoController = require('../controllers/carrinhoController');
 const quizzController = require('../controllers/quizzController');
 
@@ -12,9 +12,8 @@ const quizzController = require('../controllers/quizzController');
 // });
 
 router.get("/", indexController.index)
-router.get("/perfil", perfilController.index)
+router.get("/login", loginController.index)
 router.get("/carrinho", carrinhoController.index)
-router.get("/perfil", perfilController.index)
 router.get("/quizz", quizzController.index)
 
 module.exports = router;

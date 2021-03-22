@@ -1,39 +1,38 @@
 <!doctype html>
 <html lang="pt">
   <head>
-    <title>a botanista</title>
+    <title>Quizz - A Botanista</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public/css/quizz.css">   
+    <link rel="stylesheet" href="css/quizz.css">   
   </head>
 
   <header>
     <div>
-        <h1>Quizz - A Botanista</h1>
+        <h1>A Botanista</h1>
     </div> 
   </header>  
 
   <body>  
 
     <nav>  
-        <a class="navegacao" href="/perfil">perfil</a>
-        <a class="navegacao" href="/carrinho">carrinho</a>
+        <a class="navegacao" href="/home">Home</a>
+        <a class="navegacao" href="/login">Login</a>
         <a class="navegacao" href="/loja">loja</a>
-        <a class="navegacao" href="/quizz">quizz</a>
         <a class="navegacao" href="/sobre nós">sobre nós</a>
         <a class="navegacao" href="/contato">contato</a>      
     </nav>
-  
+    
     
     <div class="rosa">
-        <h4>o que você busca</h4>
+        <h4>O que você busca</h4>
         <form class="row">
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -43,7 +42,7 @@
         </fieldset>
 
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -53,7 +52,7 @@
         </fieldset>
         
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -63,7 +62,7 @@
         </fieldset>
 
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -75,10 +74,10 @@
     </div>
 
     <div class="verde">
-        <h4>seu dia a dia</h4>
+        <h4>Seu dia a dia</h4>
         <form class="row">
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -88,7 +87,7 @@
         </fieldset>
 
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -98,7 +97,7 @@
         </fieldset>
         
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -108,7 +107,7 @@
         </fieldset>
 
         <fieldset class="col-3">
-            <legend>como é a sua pele?</legend>
+            <legend>Como é a sua pele?</legend>
             <input type="radio" id="oleosa" name="tipo" value="oleosa">
             <label for="oleosa">oleosa</label><br>
             <input type="radio" id="seca" name="tipo" value="seca">
@@ -118,13 +117,13 @@
         </fieldset>
 
         <div class="botao">
-        <button type="submit" class="btn-primary btn-sm">enviar</button>
+        <button type="submit" class="btn-primary btn-sm">Enviar</button>
         </div>
         </form>
     </div>
 
     <div class="rosa">
-        <h4>resultados</h4>
+        <h4>Resultados</h4>
          <p>
             Sua pele precisa de xxxx
         </p>
@@ -137,4 +136,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
-    <%- include("./partials/footer") %> 
+    <%- include("./partials/footer") %>

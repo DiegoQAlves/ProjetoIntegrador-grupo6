@@ -40,3 +40,12 @@ button.btn-primary.btn {
     color: #2F3E21;
     justify-content: center;
 }
+
+footer{
+	padding: 10px;
+	background-image: url(../images/fundo.jpeg);
+	color:#FFF;
+	margin-top: auto;
+	box-sizing: border-box;
+    box-shadow: 0 0 8px 0 black;
+}
