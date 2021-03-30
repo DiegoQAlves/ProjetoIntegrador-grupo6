@@ -10,6 +10,16 @@ header {
     text-align: center;
 }
 
+nav {
+    margin: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navegacao {
+    color: gray;  
+    align-content: center;
+  }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;

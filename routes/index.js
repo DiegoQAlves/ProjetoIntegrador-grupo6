@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const indexController = require('../controllers/indexController');
-const authController = require('../controllers/authController');
-const carrinhoController = require('../controllers/carrinhoController');
-const quizzController = require('../controllers/quizzController');
+const indexController = require('../controllers/indexControllers');
+const lojaController = require('../controllers/lojaController');
+const carrinhoController = require('../controllers/carrinhoControllers');
+const quizzController = require('../controllers/quizzControllers');
 const sobreController = require('../controllers/sobreControllers');
-const contatoController = require('../controllers/contatoContoller');
+const contatoController = require('../controllers/contatoContollers');
 
 /* GET home page. */
 // router.get('/', function(req, res, next) {
@@ -15,8 +15,7 @@ const contatoController = require('../controllers/contatoContoller');
 
 router.get("/", indexController.index)
 
-router.get("/login", authController.create)
-router.post("/login", authController.store)
+router.get("/loja", lojaController.index)
 
 router.get("/carrinho", carrinhoController.index)
 
