@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato - A Botanista</title>
+</head>
+<header>
+    <div>
+      <h1>A Botanista</h1>
+    </div>
+  </header>
+<body>
+    
+    <div class="container">
+        <form action="pagina-contato">
+      
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Nome">
+      
+          <label for="sobreNome">Sobre Nome</label>
+          <input type="text" id="sobreNome" name="nome" placeholder="Sobre Nome">
+
+          <label for="CPF">CPF</label>
+          <input type="text" id="CPF" name="CPF" placeholder="CPF">
+
+          <label for="Telefone">Telefone</label>
+          <input type="text" id="Telefone" name="Telefone" placeholder="(DDD)+Telefone">
+      
+          <label for="Email">Email</label>
+          <input type="text" id="Email" name="Email" placeholder="Email">
+
+          <label for="Mensagem">Descrição da Solicitação</label>
+          <textarea id="Mensagem" name="Mensagem" placeholder="Descrição da Solicitação" style="height:200px"></textarea>
+      
+          <input type="submit" value="Enviar">
+      
+        </form> 
+      </div>
+
+
+</body>
+
+<%- include("./partials/footer") %> 
+</html>
