@@ -6,7 +6,7 @@ body {
 header {
     box-sizing: border-box;
     background: url(../images/fundo-decorativo-de-folhas-tropicais-verdes_52683-18995semescrito.jpg);
-    color: white;
+    color: rgb(44, 33, 33);
     text-align: center;
 }
 
