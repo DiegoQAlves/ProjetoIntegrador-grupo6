@@ -1,13 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0 7%;
-    color: #2F3E21;
-    }
+  margin: 0 7%;
+}
 
 header {
-    box-sizing: border-box;
-    background: url(../images/fundo-decorativo-de-folhas-tropicais-verdes_52683-18995semescrito.jpg);
-    color: rgb(44, 33, 33);
-    text-align: center;
+  box-sizing: border-box;
+  background: url(../images/fundo-decorativo-de-folhas-tropicais-verdes_52683-18995semescrito.jpg);
+  color: white;
+  text-align: center;
 }
 
 nav {
