@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+<script id="catalog-template" type="text/template">
+    <% _.each(goods, function(good) { %>
+        <li class="good-item row">
+            <div class="col-md-4">
+                <img class="good-item__img" src="<%- good.img %>" />
+            </div>
+            <div class="col-md-8">
+                <div class="good-item__id">Id <%= good.id %></div>
+                <div class="good-item__nome"><%- good.nome %></div>
+                <div class="good-item__preco"><%= good.preco %> R$</div>
+                <button 
+                    class="good-item__btn-add btn btn-info btn-sm js-add-to-cart"
+                    data-id="<%= good.id %>"
+                    data-name="<%- good.nome %>"
+                    data-price="<%= good.preco %>"
+                >Adicionar ao Carrinho</button>
+            </div>
+        </li>
+    <% }); %>
+</script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "nome": "Creme",
+        "preco": "18",
+        "img": ""
+    },
+    {
+        "id": "2",
+        "nome": "Champo",
+        "preco": "25",
+        "img": ""
+    },
+    {
+        "id": "3",
+        "name": "Creme para as mãos",
+        "price": "35000",
+        "img": ""
+    },
+    {
+        "id": "4",
+        "name": "Batom",
+        "price": "23",
+        "img": ""
+    },
+    {
+        "id": "5",
+        "name": "Kit para homens",
+        "price": "190",
+        "img": ""
+    }
+]    
