@@ -2,9 +2,9 @@ const dadosConexao = {
     host:"localhost",
     port:3306,
     username:"root",
-    password:"root",
+    password:"",
     dialect:"mysql",
-    database:"botanista"
+    database:"dbusuarios"
 }
 
 module.exports = dadosConexao

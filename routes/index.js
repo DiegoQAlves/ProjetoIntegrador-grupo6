@@ -9,7 +9,8 @@ const sobreController = require('../controllers/sobreControllers');
 const contatoController = require('../controllers/contatoContollers');
 const authController = require('../controllers/authControllers');
 const HidratanteController = require("../controllers/hidratanteController")
-const registroController = require("../controllers/registroController")
+const userController = require("../controllers/userController")
+const perfumeController = require("../controllers/perfumeController")
 
 const authMidleware = require("../middlewares/auth");
 
@@ -18,10 +19,12 @@ router.get("/", indexController.index)
 router.get("/login", authController.create)
 router.post("/login", authController.store)
 
-router.get("/registro", registroController.index)
+router.get("/registro", userController.create)
+router.post("/registro", userController.store)
 
 router.get("/loja", lojaController.index)
 router.get("/hidratantes", HidratanteController.index)
+router.get("/perfumes", perfumeController.index)
 
 router.get("/carrinho", carrinhoController.index)
 
