@@ -4,7 +4,7 @@ const dadosConexao = {
     username:"root",
     password:"root",
     dialect:"mysql",
-    database:"nome"
+    database:"botanista"
 }
 
 module.exports = dadosConexao
