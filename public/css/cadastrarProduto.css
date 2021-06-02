@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    box-sizing: border-box;
+    background: url(../images/fundo-decorativo-de-folhas-tropicais-verdes_52683-18995semescrito.jpg);
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0 7%;
+    color: #2F3E21;
+}
+
+nav {
+    margin: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao {
+    color: gray;  
+    align-content: center;
+}
+
+h4 {
+    margin-top: 7%;
+}
+
+form {
+    justify-content: right;
+    padding: 3%;
+}
+
+button.btn-primary.btn {
+    background-color: #FFD7E2;
+    border-color: #FFD7E2;
+    color: #2F3E21;
+    justify-content: center;
+}
+
+footer{
+	padding: 10px;
+	background-image: url(../images/fundo.jpeg);
+	color:#FFF;
+	margin-top: auto;
+	box-sizing: border-box;
+    box-shadow: 0 0 8px 0 black;
+}
+
+#form-produto {
+	width: 480px;
+	margin: 5vh auto;
+	background-color:gray;
+	color: #FFF;
+	padding: 50px;
+}
+#form-produto label {
+	display: block;
+	margin-bottom: 20px;
+	position: relative;
+}
+#form-produto label input {
+	display: block;
+	padding: 5px;
+	border: none;
+	margin-top: 10px;
+	font-size: 1rem;
+	width: 100%;
+}
+#form-produto label img{
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+	cursor: pointer;
+}
+
+#form-produto button{
+	display: block;
+	font-size: 1rem;
+	background-color: #FFD7E2;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	width: 100%;
+    color: black;
+}

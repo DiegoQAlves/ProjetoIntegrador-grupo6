@@ -11,6 +11,8 @@ const authController = require('../controllers/authControllers');
 const HidratanteController = require("../controllers/hidratanteController")
 const userController = require("../controllers/userController")
 const perfumeController = require("../controllers/perfumeController")
+const cadastrarProdutoController = require('../controllers/cadastrarProdutoController');
+
 
 const authMidleware = require("../middlewares/auth");
 
@@ -21,6 +23,8 @@ router.post("/login", authController.store)
 
 router.get("/registro", userController.create)
 router.post("/registro", userController.store)
+
+router.get("/cadastrar", cadastrarProdutoController.index)
 
 router.get("/loja", lojaController.index)
 router.get("/hidratantes", HidratanteController.index)
