@@ -1,8 +1,9 @@
+const { Usuario } = require("../models")
 const Bcrypt = require("bcrypt");
 
 const authController = {
   create: (_req, res) => {
-    return res.render("login");
+    return res.render("auth/login");
   },
   store: async (req, res) => {
     const { email, password } = req.body;
